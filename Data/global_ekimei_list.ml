@@ -1,5 +1,5 @@
 (* あらかじめ ex08_5.ml を読み込んでおく必要あり *) 
-#use "ex08_5.ml" 
+#use "../Data/type_ekimei_t.ml"
  
 let global_ekimei_list = [ 
 {kanji="代々木上原"; kana="よよぎうえはら"; romaji="yoyogiuehara"; shozoku="千代田線"}; 

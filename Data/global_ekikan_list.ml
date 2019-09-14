@@ -1,5 +1,12 @@
 (* あらかじめ ex08_7.ml を読み込んでおく必要あり *) 
-#use "ex08_7.ml" 
+(* 駅間の情報を格納するレコード型 *) 
+type ekikan_t = { 
+  kiten  : string; (* 起点 *) 
+  shuten : string; (* 終点 *) 
+  keiyu  : string; (* 経由路線名 *) 
+  kyori  : float;  (* 距離 *) 
+  jikan  : int;    (* 所要時間 *) 
+} 
  
 let global_ekikan_list = [ 
 {kiten="代々木上原"; shuten="代々木公園"; keiyu="千代田線"; kyori=1.0; jikan=2}; 
