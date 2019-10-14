@@ -1,0 +1,1 @@
+let koushin p v = let f q = koushin1 p q in List.map f v
